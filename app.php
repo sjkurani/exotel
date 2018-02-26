@@ -10,10 +10,10 @@ use Aws\S3\MultipartUploader;
 use Aws\Exception\MultipartUploadException;
 
 //[Configurations]
-$bucket = "sjkuraniexotel";
-$key = 'AKIAIQ7EZSNSQL363HJQ';
-$secret = 'ou5PLGVQr1RlHT+LdtmW+ltWtkQv2xzeZ8/uE4O3';
-$file_Path = 'files/abc.txt';
+$bucket = "BUCKET_NAME";
+$key = 'YOUR_KEY';
+$secret = 'YOUR_SECRET';
+$file_Path = 'files/abc.txt'; //Uploadable file path.
 
 // Create an SDK class used to share configuration across clients.
 $sharedConfig = [
